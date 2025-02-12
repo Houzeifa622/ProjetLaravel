@@ -1,22 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <title>Document</title>
-</head>
-<body>
-
-
+<div class="flex justify-end">
+  <button class="rounded-md bg-blue-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-blue-700 focus:shadow-none active:bg-blue-700 hover:bg-blue-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2" type="button">
+    Ajouter Article
+  </button>
+</div>
 <main class="flex justify-center gap-5">
-
-
-
-<!-- <section class="py-24 relative">
-        <div class="w-full max-w-7xl mx-auto px-4 md:px-8"> -->
-           
-            <!-- <div class="grid grid-cols-12"> -->
                 <div class="col-span-12 md:col-span-3 w-80 max-md:max-w-md max-md:mx-auto">
                     
 
@@ -119,7 +106,7 @@
         POPULAR
       </div>
       <h6 class="mb-2 text-slate-800 text-xl font-semibold">
-        Website Review Check
+        bsite Review Check
       </h6>
       <p class="text-slate-600 leading-normal font-light">
         The place is close to Barceloneta Beach and bus stop just 2 min by walk
@@ -295,13 +282,3 @@
           </span>
         </div>
     </div>
-
-
-
-
-
-
-
-
-</body>
-</html>

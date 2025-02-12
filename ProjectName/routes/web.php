@@ -1,9 +1,10 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::get('/test', function () {
     return view('welcome');
 });
 
@@ -17,11 +18,11 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/content', function () {
-    return view('content');
-});
+// Route::get('/content', function () {
+//     return view('content');
+// });
 
-Route::get('/acceuil', function () {
+Route::get('/', function () {
     return view('acceuil');
 });
 

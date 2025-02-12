@@ -127,6 +127,10 @@
 			</div>
 		</nav>
 	</header>
+
+	@include('banniere')
+
+	@include('content')
 	
 </body>
 </html>
